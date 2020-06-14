@@ -32,8 +32,6 @@ h2 { font-size: 0.5em;  }
  padding-top: 20px;
  font-family: "Poetsen";
  font-size: 1.5em;
-	}
-	
 }
 
 .form {
@@ -41,14 +39,14 @@ h2 { font-size: 0.5em;  }
  margin: top bottom 20px;
 }
 
-.radio { margin-right:20px; margin-bottom:40px; padding:6px; font-size: 1.2em;}
-.der,.die,.das,.idk {border-radius: 5px;}
-.der {background-color: #3D95A1; color: #0F2C32;}
-.die {background-color: #FF6A5E; color: #511712;}
-.das {background-color: #B6ED58; color: #384B16;}
-.idk {background-color: #D8D8D8; color: #2A2A2A;}
+.radio button { margin-right:20px; margin-bottom:40px; padding:6px; font-size: 1.2em;}
+#der, #die, #das, #idk {border-radius: 5px; border: none; padding: 10px 15px; }
+#der {background-color: #014C57; color: #efefef;}
+#die {background-color: #8E0A00; color: #efefef;}
+#das {background-color: #538300; color: #efefef;}
+#idk {background-color: #D8D8D8; color: #2A2A2A;}
 
-.button {
+button {
  margin-top: 20px;
  padding: 5px;
  font-size: 1em;
@@ -116,3 +114,7 @@ float: left;
 .enligne { display: inline; }
 .cache { display: none; }
 .enbloc { display: block; border-left: solid 2px #C3ED99; margin-left: 2px; padding-left: 10px; }
+
+#results { display: none; }
+#finalresult { display: none; }
+#previouswords ul { list-style-type: none; }

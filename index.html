@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta name='robots' content=''>
+	<title>DerDieDas - Wikidata & German articles</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="docs/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+</head>
+<body>
+
+<div>
+	<h1><span class="blue">Der</span><span class="red">Die</span><span class="green">Das</span></h1>
+	<h2>Practice your German articles with Wikidata</h2>
+</div>
+
+<div id="finalresult">
+	<p>Thanks for playing!</p>
+	<p id="score"> Your score is: <span id="finalscore">0</span></p>
+	<div>
+		<form class="form">
+			<button id="newgame">Play again</button>
+		</form>
+	</div>
+</div>
+
+<div id="results">
+	<div>
+		<p>What is the correct article?</p>
+	</div>
+	<div class="form">
+		<form>
+			<span class="radio der">
+				<button id="der" name="article" value="der">der</button>
+			</span>
+			<span class="radio die">
+				<button id="die" name="article" value="die">die</button>
+			</span>
+			<span class="radio das">
+				<button id="das" name="article" value="das">das</button>
+			</span>
+
+			<p id="noun"></p>
+		</form>
+	</div>
+
+	<div>
+		<p>
+			<span class="metrics round">Round: <span id="round">0</span>/10</span>
+			<span class="metrics points">Points: <span id="points">0</span>.</span>
+		</p>
+	</div>
+</div>
+
+
+<div>
+	<p class="previously">Previously:</p>
+	<div id="previouswords">
+		<ul>
+		</ul>
+	</div>
+</div>
+
+<div class="footer">
+	<p id="footer">DerDieDas JS version based on <a href="https://github.com/Auregann/derdiedas">DerDieDas by Auregann</a></p>
+</div>
+
+<script src="docs/lib.js"></script>
+
+</body>
+</html>
