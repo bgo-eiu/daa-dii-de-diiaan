@@ -9,7 +9,7 @@ var currentword = "";
 var sparqlQuery = '\
 	SELECT ?lemma (SAMPLE(?gender) AS ?gender) WITH {\
 	  SELECT DISTINCT ?lemma WHERE {\
-	    VALUES ?gender { wd:Q499327 wd:Q1775415 wd:Q1775461 }\
+	    VALUES ?gender { wd:Q499327 wd:Q1775415 }\
 	    ?lexeme dct:language wd:Q188;\
 	            wikibase:lexicalCategory wd:Q1084;\
 	            wdt:P5185 ?gender;\
@@ -86,10 +86,14 @@ function newRound () {
 		case "http://www.wikidata.org/entity/Q1775415":
 			article = "die";
 			break;
-		case "http://www.wikidata.org/entity/Q1775461":
-			article = "das";
-			break;
-	}
+
+89
+
+                
+
+90
+
+        }
 
 	currentword = item.lemma.value;
 	$("#noun").html(item.lemma.value);
