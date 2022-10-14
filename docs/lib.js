@@ -10,7 +10,7 @@ var sparqlQuery = '\
 	SELECT ?lemma (SAMPLE(?gender) AS ?gender) WITH {\
 	  SELECT DISTINCT ?lemma WHERE {\
 	    VALUES ?gender { wd:Q499327 wd:Q1775415 }\
-	    ?lexeme dct:language wd:Q188;\
+	    ?lexeme dct:language wd:Q58635;\
 	            wikibase:lexicalCategory wd:Q1084;\
 	            wdt:P5185 ?gender;\
 	            wikibase:lemma ?lemma.\
@@ -81,18 +81,11 @@ function newRound () {
 	//convert Qitem of gender into the article (simple version)
 	switch (item.gender.value) {
 		case "http://www.wikidata.org/entity/Q499327":
-			article = "der";
+			article = "daa";
 			break;
 		case "http://www.wikidata.org/entity/Q1775415":
-			article = "die";
+			article = "dii";
 			break;
-
-89
-
-                
-
-90
-
         }
 
 	currentword = item.lemma.value;
