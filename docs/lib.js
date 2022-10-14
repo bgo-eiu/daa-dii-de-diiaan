@@ -81,10 +81,10 @@ function newRound () {
 	//convert Qitem of gender into the article (simple version)
 	switch (item.gender.value) {
 		case "http://www.wikidata.org/entity/Q499327":
-			article = "daa";
+			article = "دا";
 			break;
 		case "http://www.wikidata.org/entity/Q1775415":
-			article = "dii";
+			article = "دی";
 			break;
         }
 
