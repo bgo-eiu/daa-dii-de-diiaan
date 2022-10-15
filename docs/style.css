@@ -1,5 +1,12 @@
+@font-face {
+    font-family: 'alvi_lahori_nastaleeqregular';
+    src: url('alfont_com_alqalam-alavi-webfont.woff2') format('woff2'),
+         url('alfont_com_alqalam-alavi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 @font-face { font-family: "Louis"; 	src: url('Louis George Cafe Light.ttf');	}
-@font-face { font-family: "Poetsen"; 	src: url('PoetsenOne-Regular.ttf');	}
 
 * {
  margin: 0;
@@ -20,8 +27,8 @@ div {
 }
 
 
-h1 { font-size: 2.2em; font-family: "Poetsen"; font-weight: normal;   }
-h1 span { font-family: "Poetsen"; font-weight: normal;  }
+h1 { font-size: 2.2em; font-family: "alvi_lahori_nastaleeqregular"; font-weight: normal;   }
+h1 span { font-family: "alvi_lahori_nastaleeqregular"; font-weight: normal;  }
 h2 { font-size: 0.5em;  }
 
 .green { color: #538300;}
@@ -30,7 +37,7 @@ h2 { font-size: 0.5em;  }
 
 #noun, #score {
  padding-top: 20px;
- font-family: "Poetsen";
+ font-family: "alvi_lahori_nastaleeqregular";
  font-size: 1.5em;
 }
 
