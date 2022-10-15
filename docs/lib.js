@@ -28,7 +28,7 @@ var sparqlQuery = '\
 		data = result;
 
 		if (data.results.bindings.length === 0) {
-			$("#results").html('<p>No results.</p>');
+			$("#results").html('<p>نتیجے نہیں لبھے۔</p>');
 			return;
 	    }
 
@@ -37,7 +37,7 @@ var sparqlQuery = '\
 		// TODO loading
 
 }).fail(function (e) {
-	$("#results").html('<p>Problem, no results available.</p>');
+	$("#results").html('<p>مسئلہ، نتیجے کوئی نہیں اے۔</p>');
 });
 
 $("#newgame").on("click", function (e) {
