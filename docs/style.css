@@ -1,18 +1,11 @@
 @font-face {
     font-family: 'alvi_lahori_nastaleeqregular';
-    src: url('alfont_com_alqalam-alavi-webfont.woff2') format('woff2'),
-         url('alfont_com_alqalam-alavi-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    src: url('alfont_com_AlQalam-alavi.ttf') format('truetype');
 
 }
 @font-face {
     font-family: 'Gulzar';
-    src: url('Gulzar-Regular.woff2') format('woff2'),
-        url('Gulzar-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+    src: url('Gulzar-Regular.ttf') format('truetype');
 }
 
 * {
