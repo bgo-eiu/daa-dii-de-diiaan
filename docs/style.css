@@ -32,8 +32,8 @@ h1 span { font-family: "alvi_lahori_nastaleeqregular"; font-weight: normal;  }
 h2 { font-size: 0.5em;  }
 
 .green { color: #538300;}
-.blue { color: #014C57;}
-.red { color: #8E0A00;}
+.blue { color: #332288;}
+.red { color: #CC6677;}
 
 #noun, #score {
  padding-top: 20px;
@@ -48,8 +48,8 @@ h2 { font-size: 0.5em;  }
 
 .radio button { margin-right:20px; margin-bottom:40px; padding:6px; font-size: 1.2em;}
 #daa, #dii, #idk {border-radius: 5px; border: none; padding: 10px 15px; }
-#daa {background-color: #014C57; color: #efefef;}
-#dii {background-color: #8E0A00; color: #efefef;}
+#daa {background-color: #332288; color: #efefef;}
+#dii {background-color: #CC6677; color: #efefef;}
 #idk {background-color: #D8D8D8; color: #2A2A2A;}
 
 button {
